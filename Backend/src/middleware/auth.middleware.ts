@@ -28,3 +28,4 @@ export const authenticate = (req : AuthRequest , res : Response , next : NextFun
         res.status(401).json(errorResponse);
     }
 }
+
